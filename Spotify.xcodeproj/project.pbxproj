@@ -98,6 +98,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FCFB90227502DAC005159C1 /* Build configuration list for PBXNativeTarget "Spotify" */;
 			buildPhases = (
+				8FA54A3427542C9E00AAADE2 /* SwiftLint */,
 				8FCFB8D427502DAB005159C1 /* Sources */,
 				8FCFB8D527502DAB005159C1 /* Frameworks */,
 				8FCFB8D627502DAB005159C1 /* Resources */,
@@ -184,6 +185,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8FA54A3427542C9E00AAADE2 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\n\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8FCFB8D427502DAB005159C1 /* Sources */ = {
