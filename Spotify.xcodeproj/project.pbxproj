@@ -58,7 +58,6 @@
 			children = (
 				8FCFB8DB27502DAB005159C1 /* AppDelegate.swift */,
 				8FCFB8DD27502DAB005159C1 /* SceneDelegate.swift */,
-				8FCFB8E927502DAC005159C1 /* Info.plist */,
 				8FCFB8E427502DAC005159C1 /* Assets.xcassets */,
 			);
 			path = Application;
@@ -106,6 +105,7 @@
 		8FCFB8DA27502DAB005159C1 /* Spotify */ = {
 			isa = PBXGroup;
 			children = (
+				8FCFB8E927502DAC005159C1 /* Info.plist */,
 				8F0F57C02774D5D900DA8684 /* Application */,
 				8FBB6256275EB6AD00152272 /* Scenario */,
 				8FBB6255275EAE1E00152272 /* Models */,
