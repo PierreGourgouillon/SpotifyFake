@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F0F57C32774DA9300DA8684 /* OnBoardingScenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0F57C22774DA9300DA8684 /* OnBoardingScenario.swift */; };
+		8F0F57C52774DAD800DA8684 /* DefaultOnboardingNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0F57C42774DAD800DA8684 /* DefaultOnboardingNavigator.swift */; };
+		8F0F57C92774DBD700DA8684 /* TypesAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0F57C82774DBD700DA8684 /* TypesAlias.swift */; };
+		8F0F57CB2774F03C00DA8684 /* OnBoardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0F57CA2774F03C00DA8684 /* OnBoardingViewModel.swift */; };
 		8FCFB8DC27502DAB005159C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCFB8DB27502DAB005159C1 /* AppDelegate.swift */; };
 		8FCFB8DE27502DAB005159C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCFB8DD27502DAB005159C1 /* SceneDelegate.swift */; };
 		8FCFB8E527502DAC005159C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FCFB8E427502DAC005159C1 /* Assets.xcassets */; };
@@ -25,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F0F57C22774DA9300DA8684 /* OnBoardingScenario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingScenario.swift; sourceTree = "<group>"; };
+		8F0F57C42774DAD800DA8684 /* DefaultOnboardingNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultOnboardingNavigator.swift; sourceTree = "<group>"; };
+		8F0F57C82774DBD700DA8684 /* TypesAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesAlias.swift; sourceTree = "<group>"; };
+		8F0F57CA2774F03C00DA8684 /* OnBoardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewModel.swift; sourceTree = "<group>"; };
 		8FCFB8D827502DAB005159C1 /* Spotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FCFB8DB27502DAB005159C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FCFB8DD27502DAB005159C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +71,32 @@
 			path = Application;
 			sourceTree = "<group>";
 		};
+		8F0F57C12774D89900DA8684 /* OnBoardingScenario */ = {
+			isa = PBXGroup;
+			children = (
+				8F0F57C22774DA9300DA8684 /* OnBoardingScenario.swift */,
+				8F0F57C42774DAD800DA8684 /* DefaultOnboardingNavigator.swift */,
+				8F0F57CA2774F03C00DA8684 /* OnBoardingViewModel.swift */,
+			);
+			path = OnBoardingScenario;
+			sourceTree = "<group>";
+		};
+		8F0F57C62774DBB400DA8684 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				8F0F57C72774DBBB00DA8684 /* TypeAlias */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		8F0F57C72774DBBB00DA8684 /* TypeAlias */ = {
+			isa = PBXGroup;
+			children = (
+				8F0F57C82774DBD700DA8684 /* TypesAlias.swift */,
+			);
+			path = TypeAlias;
+			sourceTree = "<group>";
+		};
 		8FBB6254275EAE1300152272 /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +114,7 @@
 		8FBB6256275EB6AD00152272 /* Scenario */ = {
 			isa = PBXGroup;
 			children = (
+				8F0F57C12774D89900DA8684 /* OnBoardingScenario */,
 			);
 			path = Scenario;
 			sourceTree = "<group>";
@@ -105,6 +140,7 @@
 		8FCFB8DA27502DAB005159C1 /* Spotify */ = {
 			isa = PBXGroup;
 			children = (
+				8F0F57C62774DBB400DA8684 /* Additions */,
 				8FCFB8E927502DAC005159C1 /* Info.plist */,
 				8F0F57C02774D5D900DA8684 /* Application */,
 				8FBB6256275EB6AD00152272 /* Scenario */,
@@ -244,8 +280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F0F57C92774DBD700DA8684 /* TypesAlias.swift in Sources */,
 				8FCFB8DC27502DAB005159C1 /* AppDelegate.swift in Sources */,
+				8F0F57CB2774F03C00DA8684 /* OnBoardingViewModel.swift in Sources */,
+				8F0F57C52774DAD800DA8684 /* DefaultOnboardingNavigator.swift in Sources */,
 				8FCFB8DE27502DAB005159C1 /* SceneDelegate.swift in Sources */,
+				8F0F57C32774DA9300DA8684 /* OnBoardingScenario.swift in Sources */,
 				8FCFB90C27502EE5005159C1 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
